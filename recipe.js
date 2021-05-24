@@ -10,3 +10,4 @@ module.exports = class Recipe {
       return { id: this.id, name: this.name };
     }
   };
+  
