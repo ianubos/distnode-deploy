@@ -4,7 +4,7 @@
   "description": "Distributed Node.js Sample Project",
   "main": "index.js",
   "scripts": {
-    "test": "nyc tape ./test/*.js"
+    "test": "nyc tape ./test/**/*.js"
   },
   "repository": {
     "type": "git",
@@ -21,7 +21,7 @@
     "fastify": "^3.15.1"
   },
   "devDependencies": {
-    "node-fetch": "^2.6.1",
+    "node-fetch": "^2.6.6",
     "nyc": "^15.1.0",
     "tape": "^5.2.2"
   }
